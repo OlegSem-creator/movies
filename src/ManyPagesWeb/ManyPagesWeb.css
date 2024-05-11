@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #141414;
+  color: #e5e5e5;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin-right: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #e5e5e5;
+}
+
+/* .active {
+    color: #e50914;
+} */
+
+footer {
+  text-align: center;
+}
+
+.home {
+  height: 50vh;
+  text-align: center;
+}
+
+.one-movie {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #e50914;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* margin: 10px 10px; */
+
+  width: 500px;
+  margin: 0 auto;
+}
+
+.one-movie a {
+  text-decoration: none;
+  color: #b92930;
+}
+
+.one-movie button {
+  font-size: 14px;
+  background-color: #e50914;
+  color: #e5e5e5;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.form-section h1 {
+  text-align: center;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  border: 2px solid #e50914;
+  background-color: #141414;
+  margin-bottom: 5px;
+  outline: none;
+  color: #e5e5e5;
+}
+
+.input::placeholder {
+  color: #868686;
+}
+
+.form-section input[type="submit"] {
+  background-color: #e50914;
+  color: #e5e5e5;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.one-movie-section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.one-movie p {
+  width: 200px;
+}
+
+.one-movie-section a {
+  text-decoration: none;
+  color: #e50914;
+}
